@@ -48,6 +48,7 @@ header:hover{
 }
 
 .logo img{
+	size: 100px;
 	padding-top: 5px;
 	height: 50px;
 	cursor: pointer;
@@ -57,9 +58,11 @@ header:hover{
 	list-style:none;
 	position: relative;
 	display: inline-flex;
+	
 }
 
 a.nav-link{
+	align-self: flex-end;
 	margin: 2px;
 	padding: 5px 10px;
 	text-decoration: none;
@@ -93,7 +96,7 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://i0.wp.com/cinde.es/blog/wp-content/uploads/2017/10/giphy.gif?resize=500%2C281') repeat;
+	background: url('https://cdn.pixabay.com/animation/2022/11/16/14/56/14-56-49-778_512.gif')  repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
@@ -101,7 +104,7 @@ a.nav-link{
     bottom: 0;
     left: 0;
     right: 0;
-	 opacity:.20;
+	opacity:.20;
 }  
 
 .intro {
