@@ -32,7 +32,7 @@ header{
 	display: flex;
     align-items: center; 
 	justify-content: space-around; 
-    
+    	background: transparent;
 	position: fixed;
 	top: 0;
 	transition: 0.3s;
@@ -59,7 +59,7 @@ header:hover{
 	list-style:none;
 	position: relative;
 	display: inline-flex;
-	transition: 1s all; 
+
 }
 
 a.nav-link{
